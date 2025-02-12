@@ -4,7 +4,7 @@
 #include <pcl/point_types.h>
 #include <pcl/registration/icp.h>
 #include <iostream>
-
+#include "alignment_package/AlignmentPackage.hpp"
 using namespace pcl;
 using namespace ros;
 using namespace ros;
