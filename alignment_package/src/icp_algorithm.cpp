@@ -1,4 +1,3 @@
-
 #include "alignment_package/AlignmentPackage.hpp"
 #include <string>
 
