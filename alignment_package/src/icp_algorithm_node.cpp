@@ -4,8 +4,8 @@
 int main(int argc, char** argv)
 {
     init(argc, argv, "alignment_package");
-    NodeHandle nh;
+    ros::NodeHandle nh;
     
-    spin();
+    ros::spin();
     return 0;
 }
