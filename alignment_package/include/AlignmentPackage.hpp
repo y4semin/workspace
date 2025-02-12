@@ -41,3 +41,27 @@ void icp_alignment()
     ros::ROS_INFO("Translation vector :");
     ros::ROS_INFO("t = %f, %f, %f", matrix (0, 3), matrix (1, 3), matrix (2, 3));   
 }  
+
+ros::NodeHandle& nodeHandle_;
+
+ros::Subscriber source_sub;
+ros::Subscriber target_sub;
+
+ 
+std::string source_topic;
+std::string target_topic;  
+
+
+ros::Pusblisher aligned_pub;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
