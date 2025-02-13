@@ -1,6 +1,3 @@
-#ifndef ALIGNMENTPACKAGE_HPP
-#define ALIGNMENTPACKAGE_HPP
-
 #include <ros/ros.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <pcl_conversions/pcl_conversions.h>
@@ -23,5 +20,5 @@ private:
     pcl::PointCloud<pcl::PointXYZ>::Ptr target_cloud;
 };
 
-#endif
+
 
