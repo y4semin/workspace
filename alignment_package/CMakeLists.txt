@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(icp_alignment)
+project(alignment_package)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -140,8 +140,9 @@ add_definitions(${PCL_DEFINITIONS})
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 
-add_executable(alignment_node src/alignment.cpp)
+add_executable(alignment_node src/alignment.cpp src/alignment_main.cpp)
 add_dependencies(alignment_node ${catkin_EXPORTED_TARGETS})
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
