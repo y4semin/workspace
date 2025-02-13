@@ -3,9 +3,9 @@
 
 int main(int argc, char** argv)
 {
-    init(argc, argv, "alignment_package");
+    init(argc, argv, "alignment_package_node");
+    ICP_Alignment icp_alignment(nh);
     ros::NodeHandle nh;
-    
     ros::spin();
     return 0;
 }
